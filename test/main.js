@@ -1,4 +1,5 @@
 // test/main.js
+const { homedir } = require('os');
 var agent007 = require('../src/agent007');
 var assert = require("assert");
 
@@ -107,5 +108,6 @@ describe('service calls', function() {
             this.timeout(3000);
 
         });
-    });
-});
+    }
+homedir);
+}c
